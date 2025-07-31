@@ -90,6 +90,14 @@ Xem log lỗi, lỗi task
 ```
 4. Mở dashboard để xem trạng thái
 
+## 🧠 Tổng kết
+| Thành phần      | Mô tả                            | Ví dụ                                |
+| --------------- | -------------------------------- | ------------------------------------ |
+| **Library/API** | Viết logic xử lý dữ liệu         | `DataStream.map().window().sinkTo()` |
+| **Runtime**     | Chạy job `.jar` trên cluster     | Set up flink, build job, run job                   |
+| **Dashboard**   | Giao diện theo dõi và điều khiển | `http://localhost:8081`              |
 
+
+Trên đây là góc nhìn của mình, mong được mọi người góp ý thêm!
 ## Tài liệu tham khảo: 
 https://docs.cloudera.com/cdf-datahub/7.3.1/how-to-flink/topics/csa-hs-webui.html
